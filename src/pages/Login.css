@@ -1,0 +1,57 @@
+.login-container{
+    margin-top: 7rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2px;
+}
+.logo{
+    width:250px;
+    height: 250px;
+    margin-left:14%;
+   margin-top: -3rem;
+   text-align: center;
+}
+.groupimag{
+    margin-top: -3rem;
+    width: 60%;
+    text-align: center;
+    display: block;
+}
+.input-bg{
+    background-color: #f3f3f3;
+    color: #dbd5d5;
+    font-size: 0.9rem;
+    height: 2.9rem;
+}
+.custom-btn{
+    padding: 0.6rem;
+    border-radius: 5px;
+}
+.custom-btn-blue{
+    border: 1px solid #b3e0ff;
+    background-color: #b3e0ff;
+    color: #fff;
+}
+.custom-btn-white{
+    border: 1px solid #eff6fc;
+    background-color: #eff6fc;
+    color: #000; 
+}
+
+@media only screen and (max-width:500px){
+    .login-container{
+        margin-top: 3rem;
+    }
+    .groupimag{
+        display: none;
+    }
+    .logo{
+       margin-left: 13%;
+    }
+   .cardPositon{
+        /* border:none !important; */
+        margin-top: -5rem !important;
+    } 
+    .shadow{
+        box-shadow: none !important;
+    }
+}

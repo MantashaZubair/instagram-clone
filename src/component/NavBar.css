@@ -1,0 +1,38 @@
+.navbar{
+    height:75px !important;
+}
+.navbar-brand{
+    margin-top: -40px;  
+}
+.search-box{
+    width: 30vw;
+    padding: 10px;
+    display: block;
+}
+.fa-magnifying-glass{
+    display: none;
+}
+.navbar-profile-pic{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+@media only screen and (max-width:500px){
+    .search-box{
+       display: none;
+    } 
+    .fa-magnifying-glass{
+        display: block;
+        margin-top:5px;
+    }
+    .navbar-brand img {
+             width: 120px;
+    }
+    .nav-link{
+        margin-top: -1.9rem;
+        
+    } 
+    .profile-link{
+        margin-top: -2.7rem;
+    }
+}
